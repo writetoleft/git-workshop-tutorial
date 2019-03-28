@@ -1,11 +1,14 @@
 from typing import List
 
+def sum_two(a, b):
+    return a + b
+
 # Returns a new list, where each element i is a[i] + b[i]
 def list_sums(a : List[int], b : List[int]) -> List[int]:
     newList = []
     # TODO: Finish this implementation
     for i in range(len(a)):
-        newList.append(a[i] + b[i])
+        newList.append(sum_two(a[i], b[i]))
     return newList
 
 first_list  = [1,2,3]
