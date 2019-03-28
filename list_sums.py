@@ -4,8 +4,8 @@ from typing import List
 def list_sums(a : List[int], b : List[int]) -> List[int]:
     newList = []
     # TODO: Finish this implementation
-    for x, y in zip(a,b):
-        newList.append(x)
+    for i in range(len(a)):
+        newList.append(a[i] + b[i])
     return newList
 
 first_list  = [1,2,3]
