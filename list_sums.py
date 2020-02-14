@@ -5,7 +5,7 @@ def list_sums(a : List[int], b : List[int]) -> List[int]:
     newList = []
     # TODO: Finish this implementation
     for x, y in zip(a,b):
-        newList.append(x * y) # Why does this seem off? 
+        newList.append(x + y) # Why does this seem off? 
     return newList
 
 first_list  = [1,2,3]
